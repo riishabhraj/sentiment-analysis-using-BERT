@@ -1,4 +1,4 @@
-## Sentiment Analysis with BERT
+# Sentiment Analysis with BERT
 
 This repository contains a sentiment analysis application that utilizes 
 BERT (Bidirectional Encoder Representations from Transformers) to classify 
@@ -6,25 +6,24 @@ movie reviews from the IMDb dataset as positive or negative.
 The project demonstrates how to preprocess text data, train a BERT model, 
 evaluate its performance using various metrics.
 
-# Installation
+## Installation
 To set up the environment and install the required packages, run the following commands:
 ``` 
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install transformers datasets scikit-learn
 ```
 
-# Usage
+## Usage
 Clone the repository:
-
 ```
 git clone https://github.com/riishabhraj/sentiment-analysis-using-BERT.git
 cd sentiment-analysis-using-BERT
 ```
 
-# Run the Jupyter Notebook:
+## Run the Jupyter Notebook:
 Open the sentiment_analysis_using_BERT.ipynb file in Jupyter Notebook or Google Colab.
 
-# Predict Sentiment:
+## Predict Sentiment:
 Use the provided functions to predict sentiment for new text inputs.
 
 JSON Configuration Example
